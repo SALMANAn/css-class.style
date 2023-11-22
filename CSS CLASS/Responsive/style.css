@@ -1,0 +1,32 @@
+/* base style for the webpage */
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: 100vh;
+}
+header,nav,main,section,footer{
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0 0 0 0.1);
+}
+nav ul a{
+    text-decoration: none;
+}
+/*Responsive design using media queries*/
+@media screen and(max-width:600px){
+    nav ul{
+        flex-direction:row;
+    }
+}
+/* For screens 900px wide and below */
+@media screen and (max-width: 900px) {
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+  }
