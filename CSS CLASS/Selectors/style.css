@@ -1,0 +1,23 @@
+p {
+    color: brown;
+}
+
+#header{
+    background-color: limegreen;
+    font-size: 25px;
+    color:black;
+    margin-bottom: 25px;
+
+}
+#p{
+    color: black;
+}
+
+.heighlight{
+    background-color:yellow;
+    color: black;
+}
+.p1{
+    color: white;
+    background-color: black;
+}
